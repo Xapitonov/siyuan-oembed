@@ -1,0 +1,51 @@
+---
+addTopBarIcon: Добавить значок на верхнюю приборную панель
+cancel: Отмена
+save: Сохранить
+byeMenu: 'Прощай, Меню!'
+helloPlugin: 'Привет, плагин!'
+byePlugin: 'Прощай, плагин!'
+showDialog: Показать диалог
+removedData: Данные удалены
+confirmRemove: Подтверждаете удаление данных в ${name}?
+insertEmoji: Вставить эмодзи
+toggleOembed: Переключить Oembed-ссылку
+toggleBookmarkCard: Переключить карточку закладки
+removeSpace: Удалить пробел
+convertOembed: Преобразовать в Oembed-ссылку
+getTab: Вывести все открытые пользовательские вкладки в отладчике
+name: Oembed
+hintTitle: О плагине
+
+insertURLDialogTitle: Вставить ссылку
+settings:
+  name: Настройки
+  EnableDebug:
+    title: Включить отладку
+    text: Включите детальную отладку для помощи в решении проблем
+  CatchClipboard:
+    title: Перехватывать ссылки из буфера
+    text: Автоматически преобразовывать ссылки, вставленные из буфера
+  ClipboardConverter:
+    title: Выберите тип преобразования при вставке
+    text: Какой тип преобразования использовать при вставке ссылки из буфера
+    options:
+      oembed: Oembed
+      bookmarkCard: Карточка закладки
+  OembedBlacklist:
+    title: Черный список доменов
+    text: Список доменов для пропуска конвертации (по одному на строку)
+    placeholder: Введите домены для блокировки
+  BookmarkCardBlacklist:
+    title: Черный список доменов
+    text: Список доменов для пропуска конвертации (по одному на строку)
+    placeholder: Введите домены для блокировки
+  BookmarkCustomCSS:
+    title: Личный CSS для карточек закладок
+    text: Введите ваш личный CSS для стилизации закладки по вашему вкусу. Вы можете стилизовать все классы `kg-card-*` и `kg-bookmark-*`. Не включайте теги <style>.
+    placeholder: Введите личный CSS
+
+SettingGroups:
+  general: Общие
+  oembed: Oembed
+  bookmarkCard: Карточка закладки
